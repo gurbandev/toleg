@@ -1,0 +1,28 @@
+.size-100{
+    width: 100px;
+    height: 100px;
+}
+
+.bg-tabler{
+    background-color: #FFEDD5;
+}
+
+.bg-smartphone{
+    background-color: #CDFBF1;
+}
+
+.bg-globe{
+    background-color: #F3E9FF;
+}
+
+.bg-phone1{
+    background: linear-gradient(136.38deg, #E3E6FF 2.84%, #D5D9FF 100.75%);
+}
+
+.bg-phone2{
+    background: linear-gradient(132.68deg, #E6F6FF 0.43%, #BEE8FF 99.85%);
+}
+
+.ui_ux{
+    color: #7F0CF1;
+}
