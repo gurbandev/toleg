@@ -192,7 +192,7 @@
     </div>
 
     {{--phones--}}
-    <div class="container-fluid">
+    <div class="container-fluid pb-5">
 
         <div class="mt-5 pt-5">
             <div class="row align-items-center justify-content-center">
@@ -219,7 +219,7 @@
                 <div class="col">
                     <div class="row justify-content-center">
                         <div class="col-8 ">
-                            <p class="fw-bold h1">Ähli <span class="text-primary">maglumatlary</span> <br> gorap bolýar</p>
+                            <p class="fw-semibold h1">Ähli <span class="text-primary">maglumatlary</span> <br> gorap bolýar</p>
                             <p>"Töleg" programmasynyň üsti bilen telekom <br> internet hasabyňyzy doldurmak aňsat.</p>
                         </div>
                     </div>
@@ -233,6 +233,120 @@
                 </div>
             </div>
         </div>
-
     </div>
+
+    <div class="mb-3 mt-5 pt-5">
+        <h1 class="text-center">Nähili töleg etmeli</h1>
+    </div>
+    <div class="d-none d-md-block">
+        <div class="container  px-3">
+            <div class="my-5 row justify-content-center px-5">
+                <span class="rounded-circle bg-lgblue text-center text-white pt-0 pb-0 px-0" style="width: 1.6rem">1</span>
+                <div class="steps col-3"></div>
+                <span class="rounded-circle bg-lgblue text-center text-white pt-0 pb-0 px-0" style="width: 1.6rem">2</span>
+                <div class="steps col-3"></div>
+                <span class="rounded-circle bg-lgblue text-center text-white pt-0 pb-0 px-0" style="width: 1.6rem">3</span>
+                <div class="steps col-3"></div>
+                <span class="rounded-circle bg-lgblue text-center text-white pt-0 pb-0 px-0" style="width: 1.6rem">4</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <img class="img-fluid" src="{{asset('img/phone/phone_step1.png')}}" alt="">
+                <p class="fw-semibold pt-4">1.Choose a service.</p>
+            </div>
+            <div class="col-3">
+                <img class="img-fluid" src="{{asset('img/phone/phone_step2.png')}}" alt="">
+                <p class="fw-semibold pt-4">2.Click the "Select a card".</p>
+            </div>
+            <div class="col-3">
+                <img class="img-fluid" src="{{asset('img/phone/phone_step3.png')}}" alt="">
+                <p class="fw-semibold pt-4">3.Add your bank card.</p>
+            </div>
+            <div class="col-3">
+                <img class="img-fluid" src="{{asset('img/phone/phone_step4.png')}}" alt="">
+                <p class="fw-semibold pt-4">4.Fill up received sms code.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-5">
+        <div class="px-5 mb-5 pb-5">
+            <div class="px-5 mb-5">
+                <h2 class="text-center mt-5 pt-5 mb-5">Frequently asked questions</h2>
+                <div class="accordion px-5" id="accordionExample">
+
+                    <div class="accordion-item border-0 border-bottom">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <span class="h5">Why I choose Belgi Labs's toleg ?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class=" accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-light mt-0 pt-0 bg-light">
+                                It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item border-0 border-bottom">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                <span class="h5">Do you offer discount for non-profits ?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-light mt-0 pt-0 bg-light">
+                                Get a deeper understandingr with video recordings. Use this information to improve your website and ensure a smooth shopping experience.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item border-0 border-bottom">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <span class="h5">Which indurstry are you best for ?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-light mt-0 pt-0 bg-light">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item border-0 border-bottom">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <span class="h5">How our toleg team works with clients ?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accor dion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-light mt-0 pt-0 bg-light">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item border-0 ">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <span class="h5">Do you offer refaral program ?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accor dion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-light mt-0 pt-0 bg-light">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 @endsection

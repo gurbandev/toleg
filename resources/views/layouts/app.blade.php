@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ asset('css/splide.min.css') }}">
     <link rel="stylesheet" href="{{asset('css/font.css')}}">
 </head>
-<body class="bg-light">
+<body class="bg-white">
 
 @include('app.nav')
 
